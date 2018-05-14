@@ -1,7 +1,7 @@
 {
-  "name" : "Cookie API Test Extension",
-  "version" : "0.8",
-  "description" : "Testing Cookie API",
+  "name" : "Cookie Cleaner",
+  "version" : "0.1",
+  "description" : "Remove cookie and hard reload the current page",
   "permissions": [ "cookies", "tabs", "http://*/*", "https://*/*" ],
   "icons": { "16": "cookie.png", "48": "cookie.png", "128": "cookie.png" },
   "browser_action": {
