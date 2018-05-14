@@ -1,29 +1,18 @@
-chrome.cookies.onChanged.addListener(function(info) {
-  console.log("onChanged" + JSON.stringify(info));
-});
-
-function focusOrCreateTab(url) {
-  chrome.windows.getAll({"populate":true}, function(windows) {
-    var existing_tab = null;
-    for (var i in windows) {
-      var tabs = windows[i].tabs;
-      for (var j in tabs) {
-        var tab = tabs[j];
-        if (tab.url == url) {
-          existing_tab = tab;
-          break;
+function clean_cookie(tab){
+    var current_url = tab.url;
+    chrome.cookies.getAll({url: current_url}, function(cookies) {
+        for(var i in cookies){
+            chrome.cookies.remove({
+                url: current_url + cookies[i].path,
+                name: cookies[i].name
+            })
         }
-      }
-    }
-    if (existing_tab) {
-      chrome.tabs.update(existing_tab.id, {"selected":true});
-    } else {
-      chrome.tabs.create({"url":url, "selected":true});
-    }
-  });
+    });
+    var refresh_code = 'window.location.reload();';
+    chrome.tabs.executeScript({code: refresh_code});
 }
 
 chrome.browserAction.onClicked.addListener(function(tab) {
-  var manager_url = chrome.extension.getURL("manager.html");
-  focusOrCreateTab(manager_url);
+    alert("Executing!");
+    clean_cookie(tab);
 });

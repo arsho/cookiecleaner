@@ -6,10 +6,9 @@ Cookie Cleaner
 [![Codecov](https://codecov.io/github/arsho/cookiecleaner/coverage.svg?branch=master)](https://codecov.io/github/arsho/cookiecleaner)
 
 
-![Final List](Screenshot/demo_original_crop.png)
+![Cookie Cleaner](cookie.png)
 
 Removes cookies and hard reload the current tab of Google Chrome browser.
-See live [#](#)
 
 <h3>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation:
@@ -30,8 +29,9 @@ See live [#](#)
 <a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use:
 </h3>
 <ol>
-<li>Visit any website.</li>
+<li>Visit any website to clean it's cookie.</li>
 <li>Click on the cookiecleaner icon.</li>
+<li>Alternatively you can press CTRL+Q to clean the cookies of current tab.</li>
 </ol>
 <hr>
 

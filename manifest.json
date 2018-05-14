@@ -1,14 +1,25 @@
 {
   "name" : "Cookie Cleaner",
   "version" : "0.1",
-  "description" : "Remove cookie and hard reload the current page",
-  "permissions": [ "cookies", "tabs", "http://*/*", "https://*/*" ],
+  "description" : "Remove cookie and refresh the current page",
+  "permissions": [ "cookies", "activeTab", "http://*/*", "https://*/*" ],
   "icons": { "16": "cookie.png", "48": "cookie.png", "128": "cookie.png" },
   "browser_action": {
     "default_icon": "cookie.png"
   },
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Q",
+        "linux": "Ctrl+Q",
+        "windows": "Ctrl+Q",
+        "mac": "Ctrl+Q"
+      }
+    }
   },
   "manifest_version": 2
 }
