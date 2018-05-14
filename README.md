@@ -1,9 +1,7 @@
 Cookie Cleaner
 ===============
 
-[![Build Status](https://travis-ci.org/arsho/cookiecleaner.svg?branch=master)](https://travis-ci.org/arsho/cookiecleaner)
 [![Size](https://img.shields.io/github/size/arsho/cookiecleaner/background.js.svg?)](https://github.com/arsho/cookiecleaner/)
-[![Codecov](https://codecov.io/github/arsho/cookiecleaner/coverage.svg?branch=master)](https://codecov.io/github/arsho/cookiecleaner)
 
 ![Cookie Cleaner](cookie.png)
 
