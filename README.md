@@ -5,7 +5,7 @@ Cookie Cleaner
 
 ![Cookie Cleaner](cookie.png)
 
-Removes cookies and hard reload the current tab of Google Chrome browser.
+Remove cookies only of the active tab and perform a hard reload. Keyboard shortcut: Ctrl+Shift+Z
 
 <h3>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation:
@@ -26,9 +26,9 @@ Removes cookies and hard reload the current tab of Google Chrome browser.
 <a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use:
 </h3>
 <ol>
-<li>Visit any website to clean it's cookie.</li>
+<li>Visit any website which cookies you want to clean.</li>
 <li>Click on the cookiecleaner icon.</li>
-<li>Alternatively you can press <strong>Ctrl+Shift+Z</strong> to clean the cookies of current tab.</li>
+<li>Alternatively you can press <strong>Ctrl+Shift+Z</strong> to clean the cookies of active tab.</li>
 </ol>
 <hr>
 

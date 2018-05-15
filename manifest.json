@@ -1,7 +1,7 @@
 {
   "name" : "Cookie Cleaner",
   "version" : "0.1",
-  "description" : "Remove cookie and refresh the current page",
+  "description" : "Remove cookies only of the active tab and perform a hard reload. Keyboard shortcut: Ctrl+Shift+Z",
   "permissions": [ "cookies", "activeTab", "http://*/*", "https://*/*" ],
   "icons": { "16": "cookie.png", "48": "cookie.png", "128": "cookie.png" },
   "browser_action": {
