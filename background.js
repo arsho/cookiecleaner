@@ -8,7 +8,7 @@ function clean_cookie(tab){
             })
         }
     });
-    var refresh_code = 'window.location.reload();';
+    var refresh_code = 'window.location.reload(true);';
     chrome.tabs.executeScript({code: refresh_code});
 }
 
