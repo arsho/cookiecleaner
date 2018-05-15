@@ -7,9 +7,9 @@ function clean_cookie(tab){
                 name: cookies[i].name
             })
         }
+        var refresh_code = 'window.location.reload(true);';
+        chrome.tabs.executeScript({code: refresh_code});
     });
-    var refresh_code = 'window.location.reload(true);';
-    chrome.tabs.executeScript({code: refresh_code});
 }
 
 chrome.browserAction.onClicked.addListener(function(tab) {
