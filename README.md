@@ -28,7 +28,7 @@ Removes cookies and hard reload the current tab of Google Chrome browser.
 <ol>
 <li>Visit any website to clean it's cookie.</li>
 <li>Click on the cookiecleaner icon.</li>
-<li>Alternatively you can press CTRL+Q to clean the cookies of current tab.</li>
+<li>Alternatively you can press <strong>Ctrl+Shift+Z</strong> to clean the cookies of current tab.</li>
 </ol>
 <hr>
 
