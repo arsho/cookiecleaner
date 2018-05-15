@@ -28,7 +28,7 @@ Remove cookies only of the active tab and perform a hard reload. Keyboard shortc
 <ol>
 <li>Visit any website which cookies you want to clean.</li>
 <li>Click on the cookiecleaner icon.</li>
-<li>Alternatively you can press <strong>Ctrl+Shift+Z</strong> to clean the cookies of active tab.</li>
+<li>Alternatively you can press <strong>Ctrl+Shift+Z</strong> for Windows and Linux to clean the cookies of active tab. For Mac press **CMD+Shift+Z**</li>
 </ol>
 <hr>
 
