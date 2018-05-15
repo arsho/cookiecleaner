@@ -13,6 +13,5 @@ function clean_cookie(tab){
 }
 
 chrome.browserAction.onClicked.addListener(function(tab) {
-    alert("Executing!");
     clean_cookie(tab);
 });
