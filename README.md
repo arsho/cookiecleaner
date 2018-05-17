@@ -10,27 +10,25 @@ Remove cookies only of the active tab and perform a hard reload. Keyboard shortc
 <h3>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation:
 </h3>
-<ol>
-<li>Download <a href="https://github.com/arsho/cookiecleaner/archive/master.zip">Cookie Cleaner Zip file</a>.</li>
-<li>Extract the zip file.</li>
-<li>Place the <b>cookiecleaner-master</b> folder in any desired location.</li>
-<li>Open Chrome.</li>
-<li>Go to <b>Settings>Extensions</b>.</li>
-<li>Make sure that <b>Developer mode</b> is tick marked.</li>
-<li>Click on <b>Load unpacked extension</b>.</li>
-<li>Select the <b>cookiecleaner-master</b> folder you have placed earlier.</li>
-<li><b>Done!</b></li>
-</ol>
+
+Add the extension to Chrome from [Google Chrome Web Store](https://chrome.google.com/webstore/detail/cookie-cleaner/mkmmimjebjhpilmnfoiaaaeimnejbkmh)
 
 <h3>
 <a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use:
 </h3>
 <ol>
 <li>Visit any website which cookies you want to clean.</li>
-<li>Click on the cookiecleaner icon.</li>
-<li>Alternatively you can press <strong>Ctrl+Shift+Z</strong> for Windows and Linux to clean the cookies of active tab. For Mac press <strong>CMD+Shift+Z</strong></li>
+<li>Click on the cookiecleaner icon and confirm your action.</li>
+<li>Alternatively you can press <strong>Ctrl+Shift+Z</strong> 
+to clean the cookies of active tab. Mac users can press <strong>Cmd+Shift+Z</strong>.</li>
 </ol>
 <hr>
+
+<h3>
+<a id="Contribute" class="anchor" href="#Contribute" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contribute:
+</h3>
+This is an open source project.
+If you want to contribute please make a pull request.
 
 <h3>Enjoy!</h3>
 <p>If you have any suggestion, please send a message to <a href="https://www.facebook.com/ars.shovon">https://www.facebook.com/ars.shovon</a></p>

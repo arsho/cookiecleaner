@@ -1,8 +1,8 @@
 {
   "name" : "Cookie Cleaner",
-  "version" : "0.1",
+  "version" : "1.0",
   "description" : "Remove cookies only of the active tab and perform a hard reload. Keyboard shortcut: Ctrl+Shift+Z",
-  "permissions": [ "cookies", "activeTab", "http://*/*", "https://*/*" ],
+  "permissions": [ "cookies", "activeTab", "tabs", "http://*/*", "https://*/*" ],
   "icons": { "16": "cookie.png", "48": "cookie.png", "128": "cookie.png" },
   "browser_action": {
     "default_icon": "cookie.png"
@@ -12,14 +12,20 @@
     "persistent": false
   },
   "commands": {
-    "_execute_browser_action": {
+    "run-clean-cookie": {
       "suggested_key": {
         "default": "Ctrl+Shift+Z",
         "linux": "Ctrl+Shift+Z",
         "windows": "Ctrl+Shift+Z",
-        "mac": "Ctrl+Shift+Z"
-      }
+        "mac": "Ctrl+Shift+Z",
+        "chromeos": "Ctrl+Shift+Z"
+      },
+      "description": "Run the clean cookie method"
     }
+  },
+  "browser_action": {
+    "default_title": "Clean cookies of current tab",
+    "default_popup": "popup.html"
   },
   "manifest_version": 2
 }

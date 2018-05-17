@@ -12,6 +12,17 @@ function clean_cookie(tab){
     });
 }
 
-chrome.browserAction.onClicked.addListener(function(tab) {
-    clean_cookie(tab);
-});
+function clean_active_tab_cookie(){
+    chrome.tabs.query({
+        "active": true,
+        "currentWindow": true
+    }, function (tabs) {
+        clean_cookie(tabs[0]);
+    })
+}
+
+chrome.commands.onCommand.addListener(function (command) {
+    if(command == "run-clean-cookie"){
+        clean_active_tab_cookie();
+    }
+})
