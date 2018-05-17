@@ -22,13 +22,13 @@ Add the extension to Chrome from [Google Chrome Web Store](https://chrome.google
 <li>Alternatively you can press <strong>Ctrl+Shift+Z</strong> 
 to clean the cookies of active tab. Mac users can press <strong>Cmd+Shift+Z</strong>.</li>
 </ol>
-<hr>
 
 <h3>
 <a id="Contribute" class="anchor" href="#Contribute" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contribute:
 </h3>
 This is an open source project.
 If you want to contribute please make a pull request.
+<hr>
 
 <h3>Enjoy!</h3>
 <p>If you have any suggestion, please send a message to <a href="https://www.facebook.com/ars.shovon">https://www.facebook.com/ars.shovon</a></p>
