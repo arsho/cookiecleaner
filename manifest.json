@@ -5,7 +5,9 @@
   "permissions": [ "cookies", "activeTab", "tabs", "http://*/*", "https://*/*" ],
   "icons": { "16": "cookie.png", "48": "cookie.png", "128": "cookie.png" },
   "browser_action": {
-    "default_icon": "cookie.png"
+    "default_icon": "cookie.png",
+    "default_title": "Clean cookies of current tab",
+    "default_popup": "popup.html"
   },
   "background": {
     "scripts": ["background.js"],
@@ -22,10 +24,6 @@
       },
       "description": "Run the clean cookie method"
     }
-  },
-  "browser_action": {
-    "default_title": "Clean cookies of current tab",
-    "default_popup": "popup.html"
   },
   "manifest_version": 2
 }
